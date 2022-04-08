@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="veiwpoint" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form To Email</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+            <form action="https://formsubmit.co/ryanmunyao9@gmail.com" method="post"  >
+                <h3>GET IN TOUCH</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email id" required>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+                <textarea name="message" rows="4" placeholder="How can we help you?"></textarea> 
+                <button type="submit"  onclick="sendEmail()">Send</button>
+            </form>
+
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="index.js"></script>
+        <script>
+
+        </script>
+    </body>
+</html>
